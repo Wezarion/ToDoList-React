@@ -1,4 +1,4 @@
-# Quest center
+# To do list
 A simple system for creating task lists with the option to mark completed tasks and delete unnecessary ones.
 
 ## Technologies
