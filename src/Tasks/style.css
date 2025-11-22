@@ -21,3 +21,37 @@
 .tasks__item--hiden {
     display: none;
 }
+
+.tasks__buttons {
+    padding: 5px;
+    border: none;
+    min-height: 30px;
+    min-width: 30px;
+    transition: 1s;
+}
+
+.tasks__buttons--done {
+    background-color: hsl(120, 100%, 25%);
+    color: white;   
+}
+
+.tasks__buttons--done:hover {
+    background-color: hsl(120, 100%, 30%);
+}
+
+.tasks__buttons--done:active {
+    background-color: hsl(120, 100%, 35%);
+}
+
+.tasks__buttons--remove {
+    background-color: hsl(0, 100%, 30%);
+    color: white;
+}
+
+.tasks__buttons--remove:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.tasks__buttons--remove:active {
+    background-color: hsl(0, 100%, 50%);
+}

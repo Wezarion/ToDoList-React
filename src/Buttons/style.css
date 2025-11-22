@@ -6,32 +6,6 @@
     transition: 1s;
 }
 
-.buttons__done {
-    background-color: hsl(120, 100%, 25%);
-    color: white;   
-}
-
-.buttons__done:hover {
-    background-color: hsl(120, 100%, 30%);
-}
-
-.buttons__done:active {
-    background-color: hsl(120, 100%, 35%);
-}
-
-.buttons__remove {
-    background-color: hsl(0, 100%, 30%);
-    color: white;
-}
-
-.buttons__remove:hover {
-    background-color: hsl(0, 100%, 40%);
-}
-
-.buttons__remove:active {
-    background-color: hsl(0, 100%, 50%);
-}
-
 .buttons__hiden {
     background-color: transparent;
     color: teal;
@@ -40,9 +14,9 @@
 
 @media(max-width: 800px) {
     .buttons__hiden {
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
