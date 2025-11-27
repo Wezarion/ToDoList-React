@@ -4,14 +4,15 @@ import "./style.css";
 const Form = ({addNewTask}) => {
     const [newTaskContent, setNewTaskContent] = useState("");
 
-    const onFormSubmit = (event => {
+    const onFormSubmit = (event) => {
         event.preverntDefault();
-        if (newTaskContent === "") {
+        const contentTrimmed = newTaskContent.trim();
+        if (contentTrimmed === "") {
             return;
         }
-        addNewTask(newTaskContent.trim());
+        addNewTask(contentTrimmed);
         setNewTaskContent("");
-    });
+    };
 
     return (
         <form className="form" onSubmit={onFormSubmit}>
